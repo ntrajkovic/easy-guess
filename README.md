@@ -6,6 +6,8 @@ Easy Guess is a simple pseudo-random number generator (PRNG) that generates an e
 
 <sup>1)</sup> The generated sequence of pseudo-random numbers is endless but not infinite! The numbers will repeat after some period, depending on the chosen parameters (refer to [Math section](#math-info "Jump to Math Info") for more details).
 
+Another generator - "eg" - is added to enable requests for a single random number at a time. The generator name "eg" is short for "easy guess", however, conveniently, "e.g." in Latin / English means _exempli gratia_ / _for example_, so it fits perfectly within the concept.
+
 ## Math Info
 All mathematics behind `easy_guess()` PRNG is explained on [Wikipedia](https://en.wikipedia.org/wiki/Linear_congruential_generator "Open Wikipedia page").
 

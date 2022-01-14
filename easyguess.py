@@ -20,6 +20,9 @@ def easy_guess():
         yield x1
         x0 = x1
 
+eg = easy_guess()
+
 if __name__ == "__main__":
-    for i in easy_guess():
-        print(i)
+    print(next(eg))
+    # for i in easy_guess():
+    #     print(i)
