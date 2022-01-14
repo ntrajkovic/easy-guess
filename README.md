@@ -1,5 +1,10 @@
 # Easy Guess
-Pseudo random number generator
+Random number generator
+
+## General Notes
+Easy Guess is a simple pseudo-random number generator (PRNG) that generates an endless sequence<sup>1</sup> of pseudo-random numbers. Its name matches its simplicity. It is small and clear, written as an example. It is not quite suitable for some research on random numbers, and also, it is not much optimized, but it is good enough for everyday use in programming practice (for fun).
+
+<sup>1)</sup> The generated sequence of pseudo-random numbers is endless but not infinite! The numbers will repeat after some period, depending on the chosen parameters (refer to [Math section](#math-info "Jump to Math Info") for more details).
 
 ## Math Info
 All mathematics behind `easy_guess()` PRNG is explained on [Wikipedia](https://en.wikipedia.org/wiki/Linear_congruential_generator "Open Wikipedia page").

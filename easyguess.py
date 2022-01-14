@@ -2,7 +2,7 @@
 
 # ********************************************************************
 # easyguess.py
-# Pseudo random number generator
+# Random number generator
 # (C) 2022 Nenad Trajkovic, MIT License
 # ********************************************************************
 
